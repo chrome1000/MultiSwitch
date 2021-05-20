@@ -5,7 +5,7 @@ A simple Arduino library for detecting various switch / button / touch sensor in
   -press : True when switch is engaged. False when released.
   
   -tap : true when switch has been enged and released. There is a small delay while waiting for 
-   double-tap detection. If double-tap function isn't needed, setting its time to 0 will 
+   double-tap detection. If double-tap function isn't needed, setting its wait time to 0 will 
    eliminate the delay.
   
   -double-tap : Maximum wait time between taps is user definable. Default is 140 milliseconds.
