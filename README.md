@@ -14,6 +14,6 @@ A simple Arduino library for detecting various switch / button / touch sensor in
   
   -extra long hold : Wait time is 3 seconds longer than long hold.
   
-Tap, double-tap, and long-hold functions are mutually exclusive. All reset to false after a
-delivering returning true. Extra long hold is NOT mutually exclusive from long-hold. If
+Tap, double-tap, and long-hold functions are mutually exclusive. All reset to false after
+returning true. Extra long hold is NOT mutually exclusive from long-hold. If
 long-hold is used, it will return true while waiting for the extra-long-hold timeout.
