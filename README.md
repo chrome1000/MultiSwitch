@@ -1,7 +1,9 @@
 # MultiSwitch
 
-A simple Arduino library for detecting various switch / button / touch sensor interactions: 
-  -press 
+A simple Arduino library for detecting various switch / button / touch sensor interactions:
+
+  -press
+  
   -tap 
   -double-tap
   -long hold
